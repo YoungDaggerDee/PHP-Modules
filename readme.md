@@ -1,4 +1,3 @@
-HEAD
 All links are in index.html :)
 
 # SETUP
