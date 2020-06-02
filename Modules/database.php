@@ -10,6 +10,10 @@
         function __construct(){
 
         }
+        function login($username, $password){
+            $this->setSql('select username from users where username="'.$username.'"');
+            echo $this->select();
+        }
         function setup($host,$username,$password,$name){
             $this->host = $host;
             $this->username = $username;
