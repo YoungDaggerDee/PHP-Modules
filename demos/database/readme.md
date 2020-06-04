@@ -11,7 +11,7 @@
     $db->setup('localhost','root','','roc');    
 ### To connect, you have to use function connect
     $db->connect()
-##SQL Task
+## SQL Task
 ### WARNING!
     I have implemented an system that wil check if you're using correct sql task!
 
