@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        require '../Modules/database.php';
+        require '../../Modules/database.php';
 
         $db = new Database();
         $db->setup('localhost','root','','roc');
@@ -23,7 +23,7 @@
             return;
         }
     ?>
-    <div id='back'><a href='../index.html'>back to main site</a></div>
+    <div id='back'><a href='../../index.html'>back to main site</a></div>
 
 </body>
 </html>

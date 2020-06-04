@@ -11,7 +11,7 @@
         <input type='submit' name='validate'>
     </form>
     <?php
-        require '../Modules/validation.php';
+        require '../../Modules/validation.php';
 
         if(isset($_POST['validate'])){
             $validator = new Validator();
@@ -19,5 +19,7 @@
             echo $validator->verifyPassword();
         }
     ?>
+    <div id='back'><a href='../../index.html'>back to main site</a></div>
+
 </body>
 </html>

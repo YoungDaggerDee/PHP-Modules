@@ -1,21 +1,25 @@
 # MODULES
-  
+#
 ## DATABASE
+    This module makes your life simpler if you use mysql with php, this class contains everything you need for work.
+    Working with database was never easier
 ### FUNCTIONS
-  SELECT
-  INSERT
-  UPDATE
-  DELETE
+  - SELECT
+  - INSERT
+  - UPDATE
+  - DELETE
 ### ADDONS
-  LOGIN
-  REGISTER
-
+  - LOGIN
+  - REGISTER
+#
 ## VALIDATION
+    This module check if email is accual email and not just some random text, same for password.
+    Rules that i follows are in instructions.md
 ### FUNCTIONS
-  EMAIL
-  PASSWORD
-  
-
+  - EMAIL
+  - PASSWORD
+#
+#
 # FAQ
 ## Can I try how module works?
     Sure, every module have its own demos.
