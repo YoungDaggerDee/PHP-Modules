@@ -10,7 +10,7 @@
     In my case I used my database with name 'roc
     $db->setup('localhost','root','','roc');    
 ### To connect, you have to use function connect
-    $db->connect()
+    $db->connect();
 ## SQL Task
 ### WARNING!
     I have implemented an system that wil check if you're using correct sql task!
@@ -29,4 +29,9 @@
     This function returns arraylist incase you have logged in
 ### Register
     This function returns true if data were inserted into database
-
+## FAQ
+### Can I connect more databases?
+    Sure you can, just use another object ($db1 = new Database(), $db2 = new Database()).
+    Dont forget to setup connection and use function connect.
+### Can I use any kind of sql command?
+    Of course, use any kind of sql command that would work in terminal.
