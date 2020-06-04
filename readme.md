@@ -24,6 +24,8 @@
 ## Can I try how module works?
     Sure, every module have its own demos.
 ## How do I setup Module?
-    Every modules have it's own folder. There you can find demos and instruction.md wher you can find everything that you  need.
-## Can I setup my own errors?
-    Of course, just download the module and feel free to change every string :).
+    You have to download the module and then setup it. In folder with module name is readme.md where I put instructions how to setup it.
+## Can I edit errors and messages?
+    Feel free to edit any string, but incase you don't know what are you doing, I'm building a system that will allows you to edit messages.
+## What if I don't find my question in FAQ?
+    Feel free to contact me at dannyseiner@gmail.com :)

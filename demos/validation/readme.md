@@ -20,7 +20,7 @@
     - Minimum 1 capital letter
 ## FAQ
 ### Can I edit rules?
-    Yes, just download validation.php from Modules and edit it your self.
+    Yes, but only these that are listed above.
     Commands to setup your own rules are coming soon!
 ### What if it doens't match rules?
     If your print function, it will return error.
